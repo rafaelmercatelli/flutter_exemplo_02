@@ -37,7 +37,7 @@ class _HomeState extends State<Home> {
         _infoText = "Ta precisando criar um pouco de vergonha na cara e comer menos! "
             "(${imc.toStringAsPrecision(4)})";
       } else if (imc >= 29.9 && imc < 34.9) {
-        _infoText = "Ta bem porpeta hein? Segura essa boca de gordo! (${imc.toStringAsPrecision(4)})";
+        _infoText = "Ta bem porpeta hein? Segura essa boca! (${imc.toStringAsPrecision(4)})";
       } else if (imc >= 34.9 && imc < 39.9) {
         _infoText = "O baleia! Para de gastar com comida e vai correr que ajuda "
             "a economiza dinheiro e emagrecer! (${imc.toStringAsPrecision(4)})";
